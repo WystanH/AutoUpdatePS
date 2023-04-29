@@ -1,7 +1,7 @@
 
 <#PSScriptInfo
 
-.VERSION 2.0
+.VERSION 3.0
 
 .GUID f599767a-7b30-4477-b7c8-d059cbdb9b45
 
@@ -27,7 +27,7 @@ param(
 begin {
     # the actual work load of our script
     function Invoke-Job {
-        Write-Host "Hello $Name"
+        Write-Host "Well met, $Name!"
     }
 
     # validation for parameters
